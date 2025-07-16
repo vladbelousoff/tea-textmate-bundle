@@ -1,0 +1,52 @@
+{
+  "name": "tea-language",
+  "displayName": "Tea Language",
+  "description": "Language support for Tea programming language",
+  "version": "1.0.0",
+  "publisher": "vladbelousov",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "tea",
+    "programming",
+    "language",
+    "rust-inspired",
+    "scripting"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "tea",
+        "aliases": [
+          "Tea",
+          "tea"
+        ],
+        "extensions": [
+          ".tea"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "tea",
+        "scopeName": "source.tea",
+        "path": "./syntaxes/tea.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tea-lang/textmate-bundle"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "typescript": "^4.9.4"
+  }
+} 
