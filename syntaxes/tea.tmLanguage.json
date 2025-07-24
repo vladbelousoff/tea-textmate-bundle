@@ -68,7 +68,7 @@
             "patterns": [
                 {
                     "name": "keyword.control.tea",
-                    "match": "\\b(if|else|while|return)\\b"
+                    "match": "\\b(if|else|while|return|continue|break)\\b"
                 },
                 {
                     "name": "keyword.other.tea",
