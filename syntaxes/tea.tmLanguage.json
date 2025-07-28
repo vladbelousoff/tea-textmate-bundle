@@ -76,7 +76,7 @@
                 },
                 {
                     "name": "constant.language.boolean.tea",
-                    "match": "\\b(true|false)\\b"
+                    "match": "\\b(true|false|none)\\b"
                 }
             ]
         },
