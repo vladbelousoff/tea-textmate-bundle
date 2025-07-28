@@ -72,11 +72,11 @@
                 },
                 {
                     "name": "keyword.other.tea",
-                    "match": "\\b(let|mut|fn|struct|impl|new|self)\\b"
+                    "match": "\\b(let|mut|fn|struct|impl|new|self|null)\\b"
                 },
                 {
                     "name": "constant.language.boolean.tea",
-                    "match": "\\b(true|false|none)\\b"
+                    "match": "\\b(true|false)\\b"
                 }
             ]
         },
